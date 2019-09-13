@@ -44,7 +44,7 @@ func getUploader() {
 		log.Print("Successfully downloaded the uploader." + string(out))
 	}
 	log.Print("Setting uploader executable permissions.")
-	log.Print("test comment")
+	log.Print("test comment 2")
 	os.Chmod("./pantheon.py", 0755)
 }
 
